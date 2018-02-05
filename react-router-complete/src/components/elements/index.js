@@ -1,5 +1,6 @@
 import { NavBar } from "./NavBar";
 import { Person } from "./Person";
-import { Loading } from "./Loading";
+import { Header } from "./Header";
+import { Footer } from "./Footer";
 
-export { NavBar, Person, Loading };
+export { NavBar, Person, Header, Footer };

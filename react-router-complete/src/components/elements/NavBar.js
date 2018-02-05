@@ -5,16 +5,18 @@ import "./css/NavBar.css";
 
 export const NavBar = () => {
   return (
+    <div className= "nav-wrapper">
     <nav className="navbar" aria-label="main navigation">
       <NavLink to="/" exact className="nav-item" activeClassName="active">
-        Home
+        ABOUT ME
       </NavLink>
-      <NavLink to="/about" className="nav-item" activeClassName="active">
-        About
+      <NavLink to="/skills" className="nav-item" activeClassName="active">
+        SKILLS
       </NavLink>
-      <NavLink to="/people" className="nav-item" activeClassName="active">
-        People
+      <NavLink to="/projects" className="nav-item" activeClassName="active">
+        PROJECTS
       </NavLink>
     </nav>
+    </div>
   );
 };

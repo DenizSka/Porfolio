@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, Route } from "react-router-dom";
 
-import { Person, Loading } from "../elements";
+import { Person, Footer } from "../elements";
 import "./css/People.css";
 
 export const People = ({ people }) => {
@@ -23,6 +23,6 @@ export const People = ({ people }) => {
       />
     </section>
   ) : (
-    <Loading />
+    <Footer />
   );
 };

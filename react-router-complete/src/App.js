@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
 
-import { NavBar } from "./components/elements";
-import { Home, About, People, NotFound } from "./components/pages";
+import { NavBar, Header, Footer } from "./components/elements";
+
+import { Home, Skills, People, NotFound } from "./components/pages";
 import "./App.css";
 
 class App extends Component {
@@ -33,18 +34,20 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Header />
         <NavBar />
-        <main>
+        <main className="home">
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/about" component={About} />
+            <Route path="/skills" component={Skills} />
             <Route
-              path="/people"
+              path="/projects"
               render={props => <People {...props} people={this.state.people} />}
             />
             <Route path="/" component={NotFound} />
           </Switch>
         </main>
+        <Footer />
       </div>
     );
   }
