@@ -8,7 +8,7 @@ export const Footer = () => {
         <div className="nav">
           <ul className='cf'>
             <li className='cf'>
-                © Deniz Skantz 2018 | Contact me
+                © Deniz Skantz 2018 | <a href="mailto:denizskantz@hotmail.com">Contact me</a>
             </li>
           </ul>
         </div>

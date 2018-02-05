@@ -1,4 +1,4 @@
-.projectsp{
+.projectid{
     font-family: "Open Sans";
     color: white;
     line-height: 1.6em;
@@ -6,4 +6,21 @@
     font-style: normal;
     text-align: center;
     padding-top: 10px;
+    display: block;
   }
+
+
+#p1 {
+  display: inline;
+
+}
+
+
+#p2 {
+display: inline;
+}
+
+#p3 {
+display: inline;
+}
+
