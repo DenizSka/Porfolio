@@ -44,9 +44,25 @@
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 100px;
+  background-color: #e9c3b8;
+}
+
+
+#project2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 100px;
+  background-color: #9d91aa;
 }
 
 #project3{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 100px;
+  background-color: #35936c;
+}
+
+#project4{
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 100px;
@@ -73,6 +89,36 @@
   #projecth3{
     font-size: 56px;
   }
+}
+
+
+@media (max-width: 480px){
+.project {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
+
+@media (max-width: 600px){
+.project {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+}
+
+@media (max-width: 800px){
+.project {
+    flex: 1 100%;
+    min-height: initial;
+}
+}
+
+@media (max-width: 900px){
+.project {
+    padding-top: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
 }
 
 #projecth3{

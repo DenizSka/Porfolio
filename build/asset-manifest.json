@@ -1,7 +1,10 @@
 {
-  "main.css": "static/css/main.5abba874.css",
-  "main.css.map": "static/css/main.5abba874.css.map",
-  "main.js": "static/js/main.38b5c1ce.js",
-  "main.js.map": "static/js/main.38b5c1ce.js.map",
-  "static/media/deniz.png": "static/media/deniz.6695bad7.png"
+  "main.css": "static/css/main.d2595f01.css",
+  "main.css.map": "static/css/main.d2595f01.css.map",
+  "main.js": "static/js/main.c911b49c.js",
+  "main.js.map": "static/js/main.c911b49c.js.map",
+  "static/media/boombox.jpg": "static/media/boombox.b3c4db42.jpg",
+  "static/media/concert.jpg": "static/media/concert.8d95a79f.jpg",
+  "static/media/deniz.png": "static/media/deniz.6695bad7.png",
+  "static/media/travel.jpg": "static/media/travel.e878a443.jpg"
 }

@@ -3,6 +3,7 @@ import { NavLink, Route } from "react-router-dom";
 import img from "../img/concert.jpg";
 import imgtwo from "../img/travel.jpg";
 import imgthree from "../img/boombox.jpg";
+import imgfour from "../img/pexels.jpg";
 
 import "./css/Project.css";
 
@@ -31,6 +32,13 @@ export const Projects = () => {
         <p className="project" id="projectp">This website shows the top ten hits on your birth date.</p>
         <a href="https://github.com/DenizSka/Rewind" className="project" id="projecta"> More info </a> |
         <a href="https://rewindapp.herokuapp.com/" className="project" id="projecta"> Live Link </a>
+      </div>
+      <div className="project" id="project4">
+       <div className="project" id="projectinimg" style={{ backgroundImage: `url(${imgfour})` }} alt="Travel Log"> </div>
+        <h3 className="project" id="projecth3"> Brighter Together </h3>
+        <p className="project" id="projectp"> I built this website for this non-profit organization using React.js.</p>
+        <a href="https://github.com/DenizSka/brightertogetherny.github.org" className="project" id="projecta"> More info </a> |
+        <a href="http://www.brightertogetherny.org/" className="project" id="projecta"> Website </a>
       </div>
     </div>
   );
