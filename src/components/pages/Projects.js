@@ -4,6 +4,7 @@ import img from "../img/concert.jpg";
 import imgtwo from "../img/travel.jpg";
 import imgthree from "../img/boombox.jpg";
 import imgfour from "../img/pexels.jpg";
+import imgfive from "../img/ilke.jpg";
 
 import "./css/Project.css";
 
@@ -20,11 +21,11 @@ export const Projects = () => {
         <a className="project" id="projecta" href="https://github.com/DenizSka/HalenApp"> More info </a>
       </div>
       <div className="project" id="project2">
-       <div className="project" id="projectinimg" style={{ backgroundImage: `url(${imgtwo})` }} alt="Travel Log"> </div>
-        <h3 className="project" id="projecth3"> Travel Log </h3>
-        <p className="project" id="projectp">Travel site to let you search the top landmarks on your desired city.</p>
-        <a className="project" id="projecta" href="https://github.com/DenizSka/TravelLog" > More info </a> |
-        <a className="project" id="projecta" href="https://travel-log-project3.herokuapp.com/" > Live Link </a>
+       <div className="project" id="projectinimg" style={{ backgroundImage: `url(${imgfive})` }} alt="Ilke Teacher"> </div>
+        <h3 className="project" id="projecth3"> Ilke Teacher </h3>
+        <p className="project" id="projectp">Portfolio page for architecture teacher Ilke and also a platform for her students to download all the homework and submit it back to her</p>
+        <a className="project" id="projecta" href="https://github.com/DenizSka/IlkeTeacher" > More info </a> |
+        <a className="project" id="projecta" href="https://ilke-teacher.herokuapp.com/" > Live Link </a>
       </div>
       <div className="project" id="project3">
        <div className="project" id="projectinimg" style={{ backgroundImage: `url(${imgthree})` }} alt="Travel Log"> </div>
@@ -39,6 +40,13 @@ export const Projects = () => {
         <p className="project" id="projectp"> I built this website for this non-profit organization using React.js.</p>
         <a href="https://github.com/DenizSka/brightertogetherny.github.org" className="project" id="projecta"> More info </a> |
         <a href="http://www.brightertogetherny.org/" className="project" id="projecta"> Website </a>
+      </div>
+      <div className="project" id="project5">
+       <div className="project" id="projectinimg" style={{ backgroundImage: `url(${imgtwo})` }} alt="Travel Log"> </div>
+        <h3 className="project" id="projecth5"> Travel Log </h3>
+        <p className="project" id="projectp">Travel site to let you search the top landmarks on your desired city.</p>
+        <a className="project" id="projecta" href="https://github.com/DenizSka/TravelLog" > More info </a> |
+        <a className="project" id="projecta" href="https://travel-log-project3.herokuapp.com/" > Live Link </a>
       </div>
     </div>
   );
