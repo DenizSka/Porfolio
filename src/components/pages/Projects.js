@@ -5,6 +5,7 @@ import imgtwo from "../img/travel.jpg";
 import imgthree from "../img/boombox.jpg";
 import imgfour from "../img/pexels.jpg";
 import imgfive from "../img/ilke.jpg";
+import imgsix from "../img/hangman.jpg";
 
 import "./css/Project.css";
 
@@ -42,12 +43,19 @@ export const Projects = () => {
         <a href="http://www.brightertogetherny.org/" className="project" id="projecta"> Website </a>
       </div>
       <div className="project" id="project5">
-       <div className="project" id="projectinimg" style={{ backgroundImage: `url(${imgtwo})` }} alt="Travel Log"> </div>
-        <h3 className="project" id="projecth5"> Travel Log </h3>
-        <p className="project" id="projectp">Travel site to let you search the top landmarks on your desired city.</p>
-        <a className="project" id="projecta" href="https://github.com/DenizSka/TravelLog" > More info </a> |
-        <a className="project" id="projecta" href="https://travel-log-project3.herokuapp.com/" > Live Link </a>
+       <div className="project" id="projectinimg" style={{ backgroundImage: `url(${imgsix})` }} alt="Travel Log"> </div>
+        <h3 className="project" id="projecth5"> Hang URL </h3>
+        <p className="project" id="projectp">Classic hangman game built only for developers. </p>
+        <a className="project" id="projecta" href="https://github.com/DenizSka/HangUrl" > More info </a> |
+        <a className="project" id="projecta" href="https://hangurl.herokuapp.com/" > Live Link </a>
       </div>
+      <div className="project" id="project6">
+        <div className="project" id="projectinimg" style={{ backgroundImage: `url(${imgtwo})` }} alt="Travel Log"> </div>
+          <h3 className="project" id="projecth6"> Travel Log </h3>
+          <p className="project" id="projectp">Travel site to let you search the top landmarks on your desired city.</p>
+          <a className="project" id="projecta" href="https://github.com/DenizSka/TravelLog" > More info </a> |
+          <a className="project" id="projecta" href="https://travel-log-project3.herokuapp.com/" > Live Link </a>
+        </div>
     </div>
   );
 };
