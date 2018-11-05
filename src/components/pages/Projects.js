@@ -15,18 +15,19 @@ export const Projects = () => {
   return (
     <div className="projects">
       <h2 className="projectid"> Projects </h2>
-      <div className="project" id="project1">
-          <div className="project" id="projectinimg" style={{ backgroundImage: `url(${img})` }} alt="HalenApp"> </div>
-        <h3 className="project" id="projecth3"> Halen App </h3>
-        <p className="project" id="projectp">Concert event app that uses geolocation to search the events around your area on the day of the event. </p>
-        <a className="project" id="projecta" href="https://github.com/DenizSka/HalenApp"> More info </a>
-      </div>
       <div className="project" id="project2">
        <div className="project" id="projectinimg" style={{ backgroundImage: `url(${imgfive})` }} alt="Ilke Teacher"> </div>
         <h3 className="project" id="projecth3"> Ilke Teacher </h3>
         <p className="project" id="projectp">Portfolio page for architecture teacher Ilke and also a platform for her students to download all the homework and submit it back to her</p>
         <a className="project" id="projecta" href="https://github.com/DenizSka/IlkeTeacher" > More info </a> |
-        <a className="project" id="projecta" href="https://ilke-teacher.herokuapp.com/" > Live Link </a>
+        <a className="project" id="projecta" href="http://www.ilkeciritci.com" > Live Link </a>
+      </div>
+      <div className="project" id="project5">
+       <div className="project" id="projectinimg" style={{ backgroundImage: `url(${imgsix})` }} alt="Travel Log"> </div>
+        <h3 className="project" id="projecth5"> Hang URL </h3>
+        <p className="project" id="projectp">Classic hangman game built only for developers. </p>
+        <a className="project" id="projecta" href="https://github.com/DenizSka/HangUrl" > More info </a> |
+        <a className="project" id="projecta" href="https://hangurl.herokuapp.com/" > Live Link </a>
       </div>
       <div className="project" id="project3">
        <div className="project" id="projectinimg" style={{ backgroundImage: `url(${imgthree})` }} alt="Travel Log"> </div>
@@ -42,12 +43,11 @@ export const Projects = () => {
         <a href="https://github.com/DenizSka/brightertogetherny.github.org" className="project" id="projecta"> More info </a> |
         <a href="http://www.brightertogetherny.org/" className="project" id="projecta"> Website </a>
       </div>
-      <div className="project" id="project5">
-       <div className="project" id="projectinimg" style={{ backgroundImage: `url(${imgsix})` }} alt="Travel Log"> </div>
-        <h3 className="project" id="projecth5"> Hang URL </h3>
-        <p className="project" id="projectp">Classic hangman game built only for developers. </p>
-        <a className="project" id="projecta" href="https://github.com/DenizSka/HangUrl" > More info </a> |
-        <a className="project" id="projecta" href="https://hangurl.herokuapp.com/" > Live Link </a>
+      <div className="project" id="project1">
+          <div className="project" id="projectinimg" style={{ backgroundImage: `url(${img})` }} alt="HalenApp"> </div>
+        <h3 className="project" id="projecth3"> Halen App </h3>
+        <p className="project" id="projectp">Concert event app that uses geolocation to search the events around your area on the day of the event. </p>
+        <a className="project" id="projecta" href="https://github.com/DenizSka/HalenApp"> More info </a>
       </div>
       <div className="project" id="project6">
         <div className="project" id="projectinimg" style={{ backgroundImage: `url(${imgtwo})` }} alt="Travel Log"> </div>
